@@ -29,7 +29,7 @@ export const registerUser = async (req, res, next) => {
       token: await user.generateJWT(),
     });
   } catch (error) {
-    // console.error(error);hhh
+    // console.error(error);
     next(error);
   }
 };

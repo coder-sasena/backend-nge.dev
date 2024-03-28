@@ -9,7 +9,7 @@ import {
   invalidPathHandler,
 } from "./middleware/errorHandler.js";
 
-// Routesss
+// Routes
 import userRoutes from "./routes/userRoutes.js";
 import postRoutes from "./routes/postRoutes.js";
 import commentRoutes from "./routes/commentRoutes.js";
